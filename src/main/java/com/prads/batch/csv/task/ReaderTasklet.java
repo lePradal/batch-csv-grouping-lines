@@ -28,12 +28,11 @@ public class ReaderTasklet implements Tasklet {
   private String filePath;
 
   @Override
-  public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
-
-    MappingStrategy ms = new HeaderColumnNameMappingStrategy<SomeDto>();
-    ms.setType(SomeDto.class);
+  public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) {
 
     try {
+      MappingStrategy ms = new HeaderColumnNameMappingStrategy<SomeDto>();
+      ms.setType(SomeDto.class);
       Reader reader = Files.newBufferedReader(Paths.get(String.format("%s/file.csv", filePath)));
       List<SomeDto> someDtoList = new CsvToBeanBuilder(reader)
           .withSeparator(';')
@@ -45,6 +44,9 @@ public class ReaderTasklet implements Tasklet {
       });
 
     } catch (FileNotFoundException e) {
+      e.printStackTrace();
+      return null;
+    } catch (IOException e) {
       e.printStackTrace();
       return null;
     }
