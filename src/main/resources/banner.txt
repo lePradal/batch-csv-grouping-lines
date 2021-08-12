@@ -1,0 +1,17 @@
+
+PPPPPPPPPPPPPPPPP                                                     dddddddd
+P::::::::::::::::P                                                    d::::::d
+P::::::PPPPPP:::::P                                                   d::::::d
+PP:::::P     P:::::P                                                  d:::::d
+  P::::P     P:::::Prrrrr   rrrrrrrrr     aaaaaaaaaaaaa       ddddddddd:::::d     ssssssssss
+  P::::P     P:::::Pr::::rrr:::::::::r    a::::::::::::a    dd::::::::::::::d   ss::::::::::s
+  P::::PPPPPP:::::P r:::::::::::::::::r   aaaaaaaaa:::::a  d::::::::::::::::d ss:::::::::::::s
+  P:::::::::::::PP  rr::::::rrrrr::::::r           a::::a d:::::::ddddd:::::d s::::::ssss:::::s
+  P::::PPPPPPPPP     r:::::r     r:::::r    aaaaaaa:::::a d::::::d    d:::::d  s:::::s  ssssss
+  P::::P             r:::::r     rrrrrrr  aa::::::::::::a d:::::d     d:::::d    s::::::s
+  P::::P             r:::::r             a::::aaaa::::::a d:::::d     d:::::d       s::::::s
+  P::::P             r:::::r            a::::a    a:::::a d:::::d     d:::::d ssssss   s:::::s
+PP::::::PP           r:::::r            a::::a    a:::::a d::::::ddddd::::::dds:::::ssss::::::s
+P::::::::P           r:::::r            a:::::aaaa::::::a  d:::::::::::::::::ds::::::::::::::s
+P::::::::P           r:::::r             a::::::::::aa:::a  d:::::::::ddd::::d s:::::::::::ss
+PPPPPPPPPP           rrrrrrr              aaaaaaaaaa  aaaa   ddddddddd   ddddd  sssssssssss
